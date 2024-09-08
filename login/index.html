@@ -1,1 +1,98 @@
-also not done
+<!DOCTYPE html>
+<html>
+<style>
+/* Add styles for the login page */
+.login-form {
+	margin-top: 20px;
+}
+
+.login-form input {
+	margin-bottom: 10px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.login-form button[type="submit"] {
+	background-color: #00f;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.login-form button[type="submit"]:hover {
+	background-color: #006;
+	transform: scale(1.05);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-form button[type="submit"]:active {
+	transform: scale(0.95);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+#login-error {
+	color: #f00;
+}
+</style>
+<head>
+	<title>BLUE16 - Login</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>BLUE16 - Login</h1>
+		<p>Login to access our operating system emulator.</p>
+		<form id="login-form">
+			<input type="text" id="username" placeholder="Username">
+			<input type="password" id="password" placeholder="Password">
+			<button class="btn" id="login-btn">Login</button>
+		</form>
+		<p id="login-error"></p>
+	</div>
+	
+	<script>
+    const loginForm = document.getElementById('login-form');
+const loginBtn = document.getElementById('login-btn');
+const loginError = document.getElementById('login-error');
+
+loginBtn.addEventListener('click', (e) => {
+	e.preventDefault();
+	const username = document.getElementById('username').value;
+	const password = document.getElementById('password').value;
+
+	// Send a POST request to the server to login the user
+	fetch('/login', {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json'
+		},
+		body: JSON.stringify({
+			username,
+			password
+		})
+	})
+	.then(response => response.json())
+	.then((data) => {
+		if (data.error) {
+			loginError.textContent = data.error;
+		} else {
+			// Redirect to /home after successful login
+			window.location.href = '/home';
+		}
+	})
+	.catch((error) => {
+		loginError.textContent = 'An error occurred. Please try again.';
+	});
+});
+  </script>
+</body>
+</html>
