@@ -84,7 +84,6 @@ loginBtn.addEventListener('click', (e) => {
 		if (data.error) {
 			loginError.textContent = data.error;
 		} else {
-			// Redirect to /home after successful login
 			window.location.href = '/home';
 		}
 	})

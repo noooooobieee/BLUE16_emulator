@@ -80,7 +80,6 @@ registerBtn.addEventListener('click', (e) => {
 		return;
 	}
 
-	// Send a POST request to the server to register the user
 	fetch('/register', {
 		method: 'POST',
 		headers: {
@@ -97,7 +96,6 @@ registerBtn.addEventListener('click', (e) => {
 		if (data.error) {
 			registerError.textContent = data.error;
 		} else {
-			// Redirect to /home after successful registration
 			window.location.href = '/home';
 		}
 	})
