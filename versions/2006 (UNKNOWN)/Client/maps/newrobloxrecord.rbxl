@@ -1,0 +1,566 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="RunService">
+		<Properties>
+			<string name="Name">Run Service</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Selection">
+		<Properties>
+			<string name="Name">Selection</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<Item class="Workspace">
+		<Properties>
+			<token name="Controller">0</token>
+			<bool name="ControllerFlagShown">true</bool>
+			<Ref name="CurrentCamera">RBX0</Ref>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">Workspace</string>
+			<Ref name="PrimaryPart">RBX1</Ref>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="Part" referent="RBX1">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">37</int>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>32.2000008</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">false</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">1</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<string name="Name">big base</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<bool name="archivable">true</bool>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>512</X>
+					<Y>1.20000005</Y>
+					<Z>512</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Camera" referent="RBX0">
+			<Properties>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<CoordinateFrame name="CoordinateFrame">
+					<X>-110.269073</X>
+					<Y>235.123047</Y>
+					<Z>-396.095215</Z>
+					<R00>-0.986921251</R00>
+					<R01>0.0458599776</R01>
+					<R02>-0.154541984</R02>
+					<R10>-1.86264515e-009</R10>
+					<R11>0.958680153</R11>
+					<R12>0.284486115</R12>
+					<R20>0.161202863</R20>
+					<R21>0.280765414</R21>
+					<R22>-0.946141779</R22>
+				</CoordinateFrame>
+				<CoordinateFrame name="Focus">
+					<X>-46.9686546</X>
+					<Y>118.597496</Y>
+					<Z>-8.55541515</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<string name="Name">Instance</string>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="SpawnLocation">
+			<Properties>
+				<bool name="Anchored">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">194</int>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>135.800003</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">false</bool>
+				<bool name="CastsShadows">false</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">1</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<string name="Name">SpawnLocation</string>
+				<bool name="Neutral">true</bool>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">1</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<bool name="archivable">true</bool>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>4</X>
+					<Y>1.20000005</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+	</Item>
+	<External>RBX2</External>
+	<External>RBX3</External>
+	<Item class="Players">
+		<Properties>
+			<string name="Name">Players</string>
+			<bool name="archivable">true</bool>
+			<int name="maxPlayers">10</int>
+		</Properties>
+	</Item>
+	<Item class="Hopper">
+		<Properties>
+			<string name="Name">Hopper</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+		<Item class="HopperBin">
+			<Properties>
+				<token name="BinType">2</token>
+				<string name="Name">HopperBin</string>
+				<Content name="TextureId"><url>rbxasset://Textures/Grab.png</url></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="HopperBin">
+			<Properties>
+				<token name="BinType">4</token>
+				<string name="Name">HopperBin</string>
+				<Content name="TextureId"><url>rbxasset://Textures\Hammer.png</url></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="HopperBin">
+			<Properties>
+				<token name="BinType">3</token>
+				<string name="Name">HopperBin</string>
+				<Content name="TextureId"><url>rbxasset://Textures\Clone.png</url></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+		</Item>
+		<Item class="HopperBin">
+			<Properties>
+				<token name="BinType">0</token>
+				<string name="Name">teleport</string>
+				<Content name="TextureId"><null></null></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Script">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<string name="Name">Script</string>
+					<string name="Source">--- Made by CreatorofBlox&#13;&#10;print(&quot;Teleport Spell Loaded&quot;)&#13;&#10;&#13;&#10;local COOLDOWN = 0&#13;&#10;local MP = 0&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;bin = script.Parent&#13;&#10;&#13;&#10;function TryToCast(player)&#13;&#10;&#9;-- returns true if player may cast this spell&#13;&#10;&#13;&#10;&#9;-- make sure this player has the wizard board stats&#13;&#10;&#9;local stats = player:findFirstChild(&quot;leaderstats&quot;)&#13;&#10;&#9;if stats == nil then return false end&#13;&#10;&#9;local mana = stats:findFirstChild(&quot;Mana&quot;)&#13;&#10;&#9;local level = stats:findFirstChild(&quot;Level&quot;)&#13;&#10;&#9;if mana == nil or level == nil then return false end&#13;&#10;&#13;&#10;&#9;if (mana.Value &gt;= MP) then&#13;&#10;&#9;&#9;mana.Value = mana.Value - MP&#13;&#10;&#9;&#9;return true&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;return false&#13;&#10;end&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;function teleportPlayer(pos)&#13;&#10;&#13;&#10;&#9;local player = game.Players.LocalPlayer&#13;&#10;&#9;if player == nil or player.Character == nil then return end&#13;&#10;&#13;&#10;&#9;local char = player.Character.Torso&#13;&#10;&#13;&#10;&#9;sound = Instance.new(&quot;Sound&quot;)&#13;&#10;&#9;sound.SoundId = &quot;&quot;&#13;&#10;&#9;sound.Parent = char&#13;&#10;&#9;sound.PlayOnRemove = true&#13;&#10;&#9;sound:remove()&#13;&#10;&#13;&#10;&#9;char.CFrame = CFrame.new(Vector3.new(pos.x, pos.y + 7, pos.z))&#13;&#10;&#13;&#10;&#13;&#10;&#9;sound = Instance.new(&quot;Sound&quot;)&#13;&#10;&#9;sound.SoundId = &quot;&quot;&#13;&#10;&#9;sound.Parent = char&#13;&#10;&#9;sound.PlayOnRemove = true&#13;&#10;&#9;sound:remove()&#13;&#10;&#13;&#10;end&#13;&#10;&#13;&#10;&#13;&#10;enabled = true&#13;&#10;function onButton1Down(mouse)&#13;&#10;&#9;if not enabled then&#13;&#10;&#9;&#9;return&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;local player = game.Players.LocalPlayer&#13;&#10;&#9;if player == nil then return end&#13;&#10;&#9;--if TryToCast(player) == false then return end&#13;&#10;&#9;&#13;&#10;&#13;&#10;&#9;enabled = false&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\ArrowFarCursor.png&quot;&#13;&#10;&#13;&#10;&#9;-- find the best cf&#13;&#10;&#9;local cf = mouse.Hit&#13;&#10;&#9;local v = cf.lookVector&#13;&#10;&#13;&#10;&#9;teleportPlayer(cf.p)&#13;&#10;&#13;&#10;&#9;wait(COOLDOWN)&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\ArrowCursor.png&quot;&#13;&#10;&#9;enabled = true&#13;&#10;&#13;&#10;end&#13;&#10;&#13;&#10;function onSelected(mouse)&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\ArrowCursor.png&quot;&#13;&#10;&#9;mouse.Button1Down:connect(function() onButton1Down(mouse) end)&#13;&#10;end&#13;&#10;&#13;&#10;bin.Selected:connect(onSelected)&#13;&#10;&#13;&#10;</string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="HopperBin">
+			<Properties>
+				<token name="BinType">0</token>
+				<string name="Name">Spike bomb</string>
+				<Content name="TextureId"><null></null></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Script">
+				<Properties>
+					<bool name="Disabled">true</bool>
+					<string name="Name">Bomb</string>
+					<string name="Source">&#13;&#10;updateInterval = .5&#13;&#10;&#13;&#10;currentColor = 1&#13;&#10;colors = {1, 1} &#13;&#10;&#13;&#10;ticksound = Instance.new(&quot;Sound&quot;)&#13;&#10;ticksound.SoundId = &quot;rbxasset://sounds\\clickfast.wav&quot;&#13;&#10;ticksound.Parent = script.Parent&#13;&#10;&#13;&#10;function update()&#13;&#10;&#9;updateInterval = updateInterval * .9&#13;&#10;&#13;&#10;&#9;script.Parent.PrimaryPart.BrickColor = BrickColor.new(colors[currentColor])&#13;&#10;&#9;currentColor = currentColor + 1&#13;&#10;&#9;if (currentColor &gt; 2) then currentColor = 1 end&#13;&#10;end&#13;&#10;&#13;&#10;splashcolors = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1} &#13;&#10;&#13;&#10;function fire(pos, creator_tag)&#13;&#10;&#13;&#10;&#9;local missile = Instance.new(&quot;Part&quot;)&#13;&#10;&#13;&#10;&#9;missile.Name = &quot;Fire&quot;&#13;&#10;&#13;&#10;&#9;local dx = (math.random() - .5) * 100&#13;&#10;&#9;local dy = (math.random() - .5) * 100&#13;&#10;&#9;local dz = (math.random() - .5) * 100&#13;&#10;&#13;&#10;&#9;local v = Vector3.new(dx,dy,dz)&#13;&#10;&#13;&#10;&#9;missile.CFrame = CFrame.new(pos + (v / 10), v)&#13;&#10;&#9;missile.Size = Vector3.new(1,1,1)&#13;&#10;&#9;missile.Velocity = v * 3&#13;&#10;&#9;missile.BrickColor = BrickColor.new(splashcolors[math.random(1, 11)])&#13;&#10;&#9;missile.Shape = 2&#13;&#10;&#13;&#10;&#13;&#10;&#9;local new_script = script.Parent.FireShot:clone()&#13;&#10;&#9;&#13;&#10;&#9;new_script.Parent = missile&#13;&#10;&#9;new_script.Disabled = false&#13;&#10;&#13;&#10;&#13;&#10;&#9;creator_tag.Parent = missile&#13;&#10;&#9;&#13;&#10;&#9;missile.Parent = game.Workspace&#13;&#10;&#9;print(&quot;Missile added&quot;)&#13;&#10;&#13;&#10;end&#13;&#10;&#13;&#10;function blowUp()&#13;&#10;&#9;local sound = Instance.new(&quot;Sound&quot;)&#13;&#10;&#9;&#9;sound.SoundId = &quot;rbxasset://sounds\\Rocket shot.wav&quot;&#13;&#10;&#9;&#9;sound.Parent = script.Parent&#13;&#10;&#9;&#9;sound.Volume = 1&#13;&#10;&#9;&#9;sound:play()&#13;&#10;&#9;&#13;&#10;&#9;-- find instigator tag&#13;&#10;&#9;local creator = script.Parent:findFirstChild(&quot;creator&quot;)&#13;&#10;&#9;local creator_copy &#13;&#10;&#9;if creator ~= nil then creator_copy = creator:clone() else creator_copy = nil end&#13;&#10;&#9;for i = 1, 15 do&#13;&#10;&#9;&#9;fire(script.Parent.PrimaryPart.Position, creator_copy)&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;script.Parent.PrimaryPart.Transparency = 1&#13;&#10;end&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;function tagHumanoid(humanoid, creator)&#13;&#10;&#9;-- tag does not need to expire iff all explosions lethal&#13;&#10;&#9;&#13;&#10;&#9;if creator ~= nil then&#13;&#10;&#9;&#9;local new_tag = creator:clone()&#13;&#10;&#9;&#9;new_tag.Parent = humanoid&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;function untagHumanoid(humanoid)&#13;&#10;&#9;if humanoid ~= nil then&#13;&#10;&#9;&#9;local tag = humanoid:findFirstChild(&quot;creator&quot;)&#13;&#10;&#9;&#9;if tag ~= nil then&#13;&#10;&#9;&#9;&#9;tag.Parent = nil&#13;&#10;&#9;&#9;end&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;while updateInterval &gt; .1 do&#13;&#10;&#9;wait(updateInterval)&#13;&#10;&#9;update()&#13;&#10;&#13;&#10;&#9;&#13;&#10;&#9;ticksound:play()&#13;&#10;&#9;&#13;&#10;end&#13;&#10;&#13;&#10;blowUp()&#13;&#10;wait(2)&#13;&#10;script.Parent:remove()&#13;&#10;</string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<string name="Name">PlantBomb</string>
+					<string name="Source">print(&quot;PumpkinBomb hopper script loaded&quot;)&#13;&#10;&#13;&#10;bin = script.Parent&#13;&#10;bombScript = script.Parent.Bomb&#13;&#10;&#13;&#10;function plant()&#13;&#10;&#9;local bomb = bin.PumpkinBomb:clone()&#13;&#10;&#13;&#10;        &#13;&#10;&#13;&#10;&#9;local spawnPos = game.Players.LocalPlayer.Character.PrimaryPart.Position&#13;&#10;&#13;&#10;&#13;&#10;&#9;bomb.PrimaryPart.Position = Vector3.new(spawnPos.x, spawnPos.y+3, spawnPos.z)&#13;&#10;&#13;&#10;&#13;&#10;&#9;local creator_tag = Instance.new(&quot;ObjectValue&quot;)&#13;&#10;&#9;creator_tag.Value = game.Players.LocalPlayer&#13;&#10;&#9;creator_tag.Name = &quot;creator&quot;&#13;&#10;&#9;creator_tag.Parent = bomb&#13;&#10;&#13;&#10;&#9;bomb.Parent = game.Workspace&#13;&#10;&#9;local new_script = bombScript:clone()&#13;&#10;&#9;new_script.Disabled = false&#13;&#10;&#9;new_script.Parent = bomb&#13;&#10;&#13;&#10;end&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;enabled = true&#13;&#10;function onButton1Down(mouse)&#13;&#10;&#9;if not enabled then&#13;&#10;&#9;&#9;return&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;enabled = false&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\ArrowFarCursor.png&quot;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;plant()&#13;&#10;&#13;&#10;&#9;wait(5)&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\ArrowCursor.png&quot;&#13;&#10;&#9;enabled = true&#13;&#10;&#13;&#10;end&#13;&#10;&#13;&#10;function onSelected(mouse)&#13;&#10;&#9;print(&quot;bomb selected&quot;)&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\ArrowCursor.png&quot;&#13;&#10;&#9;mouse.Button1Down:connect(function() onButton1Down(mouse) end)&#13;&#10;end&#13;&#10;&#13;&#10;bin.Selected:connect(onSelected)&#13;&#10;</string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Model">
+				<Properties>
+					<token name="Controller">0</token>
+					<bool name="ControllerFlagShown">true</bool>
+					<CoordinateFrame name="ModelInPrimary">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+						<R00>1</R00>
+						<R01>0</R01>
+						<R02>0</R02>
+						<R10>0</R10>
+						<R11>1</R11>
+						<R12>0</R12>
+						<R20>0</R20>
+						<R21>0</R21>
+						<R22>1</R22>
+					</CoordinateFrame>
+					<string name="Name">PumpkinBomb</string>
+					<Ref name="PrimaryPart">RBX4</Ref>
+					<bool name="archivable">true</bool>
+				</Properties>
+				<Item class="Part" referent="RBX4">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">1</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">1</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">1</int>
+						<CoordinateFrame name="CFrame">
+							<X>-89.5</X>
+							<Y>1.89999998</Y>
+							<Z>-2.5</Z>
+							<R00>-0</R00>
+							<R01>1</R01>
+							<R02>0</R02>
+							<R10>-1</R10>
+							<R11>0</R11>
+							<R12>0</R12>
+							<R20>-0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CastsShadows">true</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="Cullable">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">0</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">1</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">1</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">Smooth Block Model</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">1</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">1</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">0</token>
+						<Vector3 name="size">
+							<X>3</X>
+							<Y>3</Y>
+							<Z>3</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Part">
+					<Properties>
+						<bool name="Anchored">false</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">2</token>
+						<token name="BottomSurfaceInput">0</token>
+						<int name="BrickColor">21</int>
+						<CoordinateFrame name="CFrame">
+							<X>-89.5</X>
+							<Y>3.60000014</Y>
+							<Z>-2.5</Z>
+							<R00>-0</R00>
+							<R01>0</R01>
+							<R02>1</R02>
+							<R10>-0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>-1</R20>
+							<R21>0</R21>
+							<R22>0</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CastsShadows">true</bool>
+						<token name="Controller">0</token>
+						<bool name="ControllerFlagShown">true</bool>
+						<bool name="Cullable">true</bool>
+						<bool name="DraggingV1">false</bool>
+						<float name="Elasticity">0.5</float>
+						<token name="FormFactor">2</token>
+						<float name="Friction">0.300000012</float>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<string name="Name">Smooth Block Model</string>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">3</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<bool name="archivable">true</bool>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>1</X>
+							<Y>0.400000006</Y>
+							<Z>1</Z>
+						</Vector3>
+					</Properties>
+				</Item>
+				<Item class="Script">
+					<Properties>
+						<bool name="Disabled">true</bool>
+						<string name="Name">FireShot</string>
+						<string name="Source">&#13;&#10;fire = script.Parent&#13;&#10;damage = 400&#13;&#10;&#13;&#10;function onTouched(hit)&#13;&#10;&#9;local humanoid = hit.Parent:findFirstChild(&quot;Humanoid&quot;)&#13;&#10;&#9;if humanoid~=nil then&#13;&#10;&#9;&#9;tagHumanoid(humanoid)&#13;&#10;&#9;&#9;humanoid.Health = humanoid.Health - damage&#13;&#10;&#9;&#9;wait(2)&#13;&#10;&#9;&#9;untagHumanoid(humanoid)&#13;&#10;&#9;&#9;connection:disconnect()&#13;&#10;&#9;else&#13;&#10;&#9;&#9;damage = damage / 2&#13;&#10;&#9;&#9;if damage &lt; 0.1 then&#13;&#10;&#9;&#9;&#9;connection:disconnect()&#13;&#10;&#9;&#9;end&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;function tagHumanoid(humanoid)&#13;&#10;&#9;-- todo: make tag expire&#13;&#10;&#9;local tag = fire:findFirstChild(&quot;creator&quot;)&#13;&#10;&#9;if tag ~= nil then&#13;&#10;&#9;&#9;local new_tag = tag:clone()&#13;&#10;&#9;&#9;new_tag.Parent = humanoid&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;&#13;&#10;function untagHumanoid(humanoid)&#13;&#10;&#9;if humanoid ~= nil then&#13;&#10;&#9;&#9;local tag = humanoid:findFirstChild(&quot;creator&quot;)&#13;&#10;&#9;&#9;if tag ~= nil then&#13;&#10;&#9;&#9;&#9;tag.Parent = nil&#13;&#10;&#9;&#9;end&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;connection = fire.Touched:connect(onTouched)&#13;&#10;&#13;&#10;r = game:service(&quot;RunService&quot;)&#13;&#10;t, s = r.Stepped:wait()&#13;&#10;d = t + 2.0 - s&#13;&#10;madeGrey = false&#13;&#10;while t &lt; d do&#13;&#10;&#9;t = r.Stepped:wait()&#13;&#10;&#9;if madeGrey == false and d-t &lt; .7 then&#13;&#10;&#9;&#9;madeGrey = true&#13;&#10;&#9;&#9;fire.BrickColor = BrickColor.new(.4,.4,.4)&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;fire.Parent = nil</string>
+						<bool name="archivable">true</bool>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="HopperBin">
+			<Properties>
+				<token name="BinType">0</token>
+				<string name="Name">freaky flyer</string>
+				<Content name="TextureId"><null></null></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Script">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<string name="Name">Jetboots</string>
+					<string name="Source">print(&quot;Jet Boots loaded&quot;)&#13;&#10;&#13;&#10;bin = script.Parent&#13;&#10;&#13;&#10;walking = false&#13;&#10;reloadtime = 0&#13;&#10;&#13;&#10;local thrust = Instance.new(&quot;BodyVelocity&quot;)&#13;&#10;local velocity = 0&#13;&#10;local max_velocity = 30&#13;&#10;local flight_time = 9&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;function onStart()&#13;&#10;&#9;print(&quot;start walking&quot;)&#13;&#10;&#9;walking = true&#13;&#10;&#9;reloadtime = 8.0&#13;&#10;&#9;&#13;&#10;&#9;thrust.Parent = game.Players.LocalPlayer.Character.PrimaryPart&#13;&#10;&#9;&#13;&#10;&#9;thrust.velocity = Vector3.new(0,velocity,0)&#13;&#10;&#9;thrust.maxForce = Vector3.new(0,4e+003,0) &#13;&#10;&#9;&#13;&#10;&#9;local sound = game.Players.LocalPlayer.Character.PrimaryPart:findFirstChild(&quot;JetbootSound&quot;)&#13;&#10;&#9;if sound == nil then &#13;&#10;&#9;&#9;sound = Instance.new(&quot;Sound&quot;)&#13;&#10;&#9;&#9;sound.Name = &quot;JetbootSound&quot;&#13;&#10;&#9;&#9;sound.SoundId = &quot;rbxasset://sounds\\Rocket whoosh 01.wav&quot;&#13;&#10;&#9;&#9;sound.Looped = true&#13;&#10;&#9;&#9;sound.Parent = game.Players.LocalPlayer.Character.PrimaryPart&#13;&#10;&#9;end&#13;&#10;&#9;sound:play()&#13;&#10;&#13;&#10;end&#13;&#10;&#13;&#10;function onEnd()&#13;&#10;&#9;print(&quot;stop walking&quot;)&#13;&#10;&#9;walking = false&#13;&#10;&#9;thrust.Parent = nil&#13;&#10;&#9;local sound = game.Players.LocalPlayer.Character.PrimaryPart:findFirstChild(&quot;JetbootSound&quot;)&#13;&#10;&#9;if sound ~= nil then sound:stop() end&#13;&#10;&#9;wait(reloadtime)&#13;&#10;&#9;reloadtime = 0&#13;&#10;end&#13;&#10;&#13;&#10;function onButton1Down(mouse)&#13;&#10;&#9;if reloadtime &gt; 0 then return end&#13;&#10;&#9;if walking == true then return end&#13;&#10;&#9;&#13;&#10;&#9;onStart()&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\ArrowFarCursor.png&quot;&#13;&#10;&#13;&#10;&#9;local time = 0&#13;&#10;&#9;while walking == true do&#13;&#10;&#9;&#9;--onWalk()&#13;&#10;&#9;&#9;wait(.2)&#13;&#10;&#9;&#9;time = time + .2&#13;&#10;&#9;&#9;velocity = (max_velocity  * (time / flight_time)) + 3 &#13;&#10;&#9;&#9;thrust.velocity = Vector3.new(0,velocity,0)&#13;&#10;&#13;&#10;&#9;&#9;if time &gt; flight_time then onButton1Up(mouse) end&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;function onButton1Up(mouse)&#13;&#10;&#9;onEnd()&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\ArrowCursor.png&quot;&#13;&#10;end&#13;&#10;&#13;&#10;function onSelected(mouse)&#13;&#10;&#9;print(&quot;ghostwalker selected&quot;)&#13;&#10;&#9;if reloadtime &gt; 0 then&#13;&#10;&#9;&#9;mouse.Icon = &quot;rbxasset://textures\\ArrowFarCursor.png&quot;&#13;&#10;&#9;else&#13;&#10;&#9;&#9;mouse.Icon = &quot;rbxasset://textures\\ArrowCursor.png&quot;&#13;&#10;&#9;end&#13;&#10;&#9;mouse.Button1Down:connect(function() onButton1Down(mouse) end)&#13;&#10;&#9;mouse.Button1Up:connect(function() onButton1Up(mouse) end)&#13;&#10;end&#13;&#10;&#13;&#10;bin.Selected:connect(onSelected)&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;</string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="HopperBin">
+			<Properties>
+				<token name="BinType">0</token>
+				<string name="Name">S-bomb</string>
+				<Content name="TextureId"><null></null></Content>
+				<bool name="archivable">true</bool>
+			</Properties>
+			<Item class="Script">
+				<Properties>
+					<bool name="Disabled">true</bool>
+					<string name="Name">Bomb</string>
+					<string name="Source">&#13;&#10;updateInterval = 2&#13;&#10;&#13;&#10;currentColor = 1&#13;&#10;colors = {26, 21} &#13;&#10;&#13;&#10;ticksound = Instance.new(&quot;Sound&quot;)&#13;&#10;ticksound.SoundId = &quot;rbxasset://sounds\\clickfast.wav&quot;&#13;&#10;ticksound.Parent = script.Parent&#13;&#10;&#13;&#10;function update()&#13;&#10;&#9;updateInterval = updateInterval * .9&#13;&#10;&#13;&#10;&#9;script.Parent.BrickColor = BrickColor.new(colors[currentColor])&#13;&#10;&#9;currentColor = currentColor + 1&#13;&#10;&#9;if (currentColor &gt; 2) then currentColor = 1 end&#13;&#10;end&#13;&#10;&#13;&#10;&#13;&#10;function blowUp()&#13;&#10;&#9;local sound = Instance.new(&quot;Sound&quot;)&#13;&#10;&#9;&#9;sound.SoundId = &quot;rbxasset://sounds\\Rocket shot.wav&quot;&#13;&#10;&#9;&#9;sound.Parent = script.Parent&#13;&#10;&#9;&#9;sound.Volume = 1&#13;&#10;&#9;&#9;sound:play()&#13;&#10;&#9;explosion = Instance.new(&quot;Explosion&quot;)&#13;&#10;&#9;explosion.BlastRadius = 12&#13;&#10;&#9;explosion.BlastPressure = 1000000 -- these are really wussy units&#13;&#10;&#13;&#10;&#9;-- find instigator tag&#13;&#10;&#9;local creator = script.Parent:findFirstChild(&quot;creator&quot;)&#13;&#10;&#9;if creator ~= nil then&#13;&#10;&#9;&#9;explosion.Hit:connect(function(part, distance)  onPlayerBlownUp(part, distance, creator) end)&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;explosion.Position = script.Parent.Position&#13;&#10;&#9;explosion.Parent = game.Workspace&#13;&#10;&#9;script.Parent.Transparency = 1&#13;&#10;end&#13;&#10;&#13;&#10;function onPlayerBlownUp(part, distance, creator)&#13;&#10;&#9;if part.Name == &quot;Head&quot; then&#13;&#10;&#9;&#9;local humanoid = part.Parent:findFirstChild(&quot;Humanoid&quot;)&#13;&#10;&#9;&#9;tagHumanoid(humanoid, creator)&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;function tagHumanoid(humanoid, creator)&#13;&#10;&#9;-- tag does not need to expire iff all explosions lethal&#13;&#10;&#9;&#13;&#10;&#9;if creator ~= nil then&#13;&#10;&#9;&#9;local new_tag = creator:clone()&#13;&#10;&#9;&#9;new_tag.Parent = humanoid&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;function untagHumanoid(humanoid)&#13;&#10;&#9;if humanoid ~= nil then&#13;&#10;&#9;&#9;local tag = humanoid:findFirstChild(&quot;creator&quot;)&#13;&#10;&#9;&#9;if tag ~= nil then&#13;&#10;&#9;&#9;&#9;tag.Parent = nil&#13;&#10;&#9;&#9;end&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;while updateInterval &gt; .1 do&#13;&#10;&#9;wait(updateInterval)&#13;&#10;&#9;update()&#13;&#10;&#13;&#10;&#9;&#13;&#10;&#9;ticksound:play()&#13;&#10;&#9;&#13;&#10;end&#13;&#10;&#13;&#10;blowUp()&#13;&#10;wait(2)&#13;&#10;script.Parent:remove()&#13;&#10;</string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<string name="Name">PlantBomb</string>
+					<string name="Source">print(&quot;Bomb hopper script loaded&quot;)&#13;&#10;&#13;&#10;bin = script.Parent&#13;&#10;bombScript = script.Parent.Bomb&#13;&#10;&#13;&#10;function plant()&#13;&#10;&#9;local bomb = Instance.new(&quot;Part&quot;)&#13;&#10;&#13;&#10;        &#13;&#10;&#13;&#10;&#9;local spawnPos = game.Players.LocalPlayer.Character.PrimaryPart.Position&#13;&#10;&#13;&#10;&#13;&#10;&#9;&#13;&#10;&#13;&#10;&#9;bomb.Position = Vector3.new(spawnPos.x, spawnPos.y+3, spawnPos.z)&#13;&#10;&#9;bomb.Size = Vector3.new(2,2,2)&#13;&#10;&#9;&#13;&#10;&#9;bomb.BrickColor = BrickColor.new(21)&#13;&#10;&#9;bomb.Shape = 0&#13;&#10;&#9;bomb.BottomSurface = 0&#13;&#10;&#9;bomb.TopSurface = 0&#13;&#10;&#9;bomb.Reflectance = 0&#13;&#10;&#9;bomb.Name = &quot;TimeBomb&quot;&#13;&#10;&#9;bomb.Locked = true&#13;&#10;&#13;&#10;&#9;local creator_tag = Instance.new(&quot;ObjectValue&quot;)&#13;&#10;&#9;creator_tag.Value = game.Players.LocalPlayer&#13;&#10;&#9;creator_tag.Name = &quot;creator&quot;&#13;&#10;&#9;creator_tag.Parent = bomb&#13;&#10;&#13;&#10;&#9;bomb.Parent = game.Workspace&#13;&#10;&#9;local new_script = bombScript:clone()&#13;&#10;&#9;new_script.Disabled = false&#13;&#10;&#9;new_script.Parent = bomb&#13;&#10;&#13;&#10;end&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;enabled = true&#13;&#10;function onButton1Down(mouse)&#13;&#10;&#9;if not enabled then&#13;&#10;&#9;&#9;return&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;enabled = false&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\ArrowFarCursor.png&quot;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#9;plant()&#13;&#10;&#13;&#10;&#9;wait(0.5)&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\ArrowCursor.png&quot;&#13;&#10;&#9;enabled = true&#13;&#10;&#13;&#10;end&#13;&#10;&#13;&#10;function onSelected(mouse)&#13;&#10;&#9;print(&quot;bomb selected&quot;)&#13;&#10;&#9;mouse.Icon = &quot;rbxasset://textures\\ArrowCursor.png&quot;&#13;&#10;&#9;mouse.Button1Down:connect(function() onButton1Down(mouse) end)&#13;&#10;end&#13;&#10;&#13;&#10;bin.Selected:connect(onSelected)&#13;&#10;</string>
+					<bool name="archivable">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="SoundService">
+		<Properties>
+			<string name="Name">SoundService</string>
+			<bool name="archivable">true</bool>
+			<float name="distancefactor">10</float>
+			<float name="dopplerscale">1</float>
+			<float name="rolloffscale">1</float>
+		</Properties>
+		<External>RBX5</External>
+		<External>RBX6</External>
+		<External>RBX7</External>
+		<External>RBX8</External>
+		<External>RBX9</External>
+		<External>RBX10</External>
+		<External>RBX11</External>
+		<External>RBX12</External>
+		<External>RBX13</External>
+		<External>RBX14</External>
+		<External>RBX15</External>
+		<External>RBX16</External>
+		<External>RBX17</External>
+		<External>RBX18</External>
+	</Item>
+	<Item class="ControllerService">
+		<Properties>
+			<string name="Name">Instance</string>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<External>RBX19</External>
+	<Item class="Lighting">
+		<Properties>
+			<Color3 name="BottomAmbientV9">4286221176</Color3>
+			<Color3 name="ClearColor">4278190080</Color3>
+			<string name="Name">Lighting</string>
+			<Color3 name="SpotLightV9">4291085508</Color3>
+			<string name="TimeOfDay">14:00:00</string>
+			<Color3 name="TopAmbientV9">4292269534</Color3>
+			<bool name="archivable">true</bool>
+		</Properties>
+	</Item>
+	<External>RBX20</External>
+	<External>RBX21</External>
+</roblox>

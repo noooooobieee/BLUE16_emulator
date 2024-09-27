@@ -1,0 +1,1725 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Model">
+		<Properties>
+			<token name="Controller">0</token>
+			<bool name="ControllerFlagShown">true</bool>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">TeamBeacon Red</string>
+			<Ref name="PrimaryPart">RBX0</Ref>
+		</Properties>
+		<Item class="Part" referent="RBX0">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">2</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">2</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">141</int>
+				<CoordinateFrame name="CFrame">
+					<X>203</X>
+					<Y>4.39363575</Y>
+					<Z>13</Z>
+					<R00>7.08578e-007</R00>
+					<R01>-0.99999994</R01>
+					<R02>-6.55777543e-010</R02>
+					<R10>0.99999994</R10>
+					<R11>7.15255737e-007</R11>
+					<R12>6.27410088e-008</R12>
+					<R20>-6.27410088e-008</R20>
+					<R21>-6.55820842e-010</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">2</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">2</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Center</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">2</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">2</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0.5</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>4</X>
+					<Y>4</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Script">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<string name="Name">Script</string>
+					<string name="Source">while true do&#13;&#10;&#13;&#10;script.Parent.Color = Color3.new(math.random(), math.random(), math.random() )&#13;&#10;&#13;&#10;wait(0.5)&#13;&#10;&#13;&#10;end </string>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">119</int>
+				<CoordinateFrame name="CFrame">
+					<X>206</X>
+					<Y>4.39363384</Y>
+					<Z>13</Z>
+					<R00>7.08578e-007</R00>
+					<R01>-0.99999994</R01>
+					<R02>-6.55777543e-010</R02>
+					<R10>0.99999994</R10>
+					<R11>7.15255737e-007</R11>
+					<R12>6.27410088e-008</R12>
+					<R20>-6.27410088e-008</R20>
+					<R21>-6.55820842e-010</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Bottom</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Script">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<string name="Name">Script</string>
+					<string name="Source">while true do&#13;&#10;&#13;&#10;script.Parent.Color = Color3.new(math.random(), math.random(), math.random() )&#13;&#10;&#13;&#10;wait(0.5)&#13;&#10;&#13;&#10;end </string>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">198</int>
+				<CoordinateFrame name="CFrame">
+					<X>203</X>
+					<Y>7.39363575</Y>
+					<Z>13</Z>
+					<R00>7.08578e-007</R00>
+					<R01>-0.99999994</R01>
+					<R02>-6.55777543e-010</R02>
+					<R10>0.99999994</R10>
+					<R11>7.15255737e-007</R11>
+					<R12>6.27410088e-008</R12>
+					<R20>-6.27410088e-008</R20>
+					<R21>-6.55820842e-010</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Left</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Script">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<string name="Name">Script</string>
+					<string name="Source">while true do&#13;&#10;&#13;&#10;script.Parent.Color = Color3.new(math.random(), math.random(), math.random() )&#13;&#10;&#13;&#10;wait(0.5)&#13;&#10;&#13;&#10;end </string>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">41</int>
+				<CoordinateFrame name="CFrame">
+					<X>203</X>
+					<Y>4.39363575</Y>
+					<Z>10</Z>
+					<R00>7.08578e-007</R00>
+					<R01>-0.99999994</R01>
+					<R02>-6.55777543e-010</R02>
+					<R10>0.99999994</R10>
+					<R11>7.15255737e-007</R11>
+					<R12>6.27410088e-008</R12>
+					<R20>-6.27410088e-008</R20>
+					<R21>-6.55820842e-010</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Front</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Script">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<string name="Name">Script</string>
+					<string name="Source">while true do&#13;&#10;&#13;&#10;script.Parent.Color = Color3.new(math.random(), math.random(), math.random() )&#13;&#10;&#13;&#10;wait(0.5)&#13;&#10;&#13;&#10;end </string>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">119</int>
+				<CoordinateFrame name="CFrame">
+					<X>203</X>
+					<Y>4.39363575</Y>
+					<Z>16</Z>
+					<R00>7.08578e-007</R00>
+					<R01>-0.99999994</R01>
+					<R02>-6.55777543e-010</R02>
+					<R10>0.99999994</R10>
+					<R11>7.15255737e-007</R11>
+					<R12>6.27410088e-008</R12>
+					<R20>-6.27410088e-008</R20>
+					<R21>-6.55820842e-010</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Back</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+			<Item class="Script">
+				<Properties>
+					<bool name="Disabled">false</bool>
+					<string name="Name">Script</string>
+					<string name="Source">while true do&#13;&#10;&#13;&#10;script.Parent.Color = Color3.new(math.random(), math.random(), math.random() )&#13;&#10;&#13;&#10;wait(0.5)&#13;&#10;&#13;&#10;end </string>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1</int>
+				<CoordinateFrame name="CFrame">
+					<X>200</X>
+					<Y>4.39363766</Y>
+					<Z>13</Z>
+					<R00>7.08578e-007</R00>
+					<R01>-0.99999994</R01>
+					<R02>-6.55777543e-010</R02>
+					<R10>0.99999994</R10>
+					<R11>7.15255737e-007</R11>
+					<R12>6.27410088e-008</R12>
+					<R20>-6.27410088e-008</R20>
+					<R21>-6.55820842e-010</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Top</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">1</int>
+				<CoordinateFrame name="CFrame">
+					<X>203</X>
+					<Y>1.39363599</Y>
+					<Z>13</Z>
+					<R00>7.08578e-007</R00>
+					<R01>-0.99999994</R01>
+					<R02>-6.55777543e-010</R02>
+					<R10>0.99999994</R10>
+					<R11>7.15255737e-007</R11>
+					<R12>6.27410088e-008</R12>
+					<R20>-6.27410088e-008</R20>
+					<R21>-6.55820842e-010</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Right</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<token name="shape">1</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Script">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<string name="Name">Script</string>
+				<string name="Source">step, time = wait()&#13;&#10;&#13;&#10;beacon = script.Parent&#13;&#10;&#13;&#10;-- obtain goals based on Center part&#13;&#10;beacon.Center.BodyPosition.position = beacon.Center.Position&#13;&#10;teamColor = beacon.Center.Color&#13;&#10;&#13;&#10;vel = beacon.Center.BodyVelocity&#13;&#10;&#13;&#10;healerIsResting = false&#13;&#10;&#13;&#10;function restHealer()&#13;&#10;&#9;healerIsResting = true&#13;&#10;&#9;wait(5)&#13;&#10;&#9;healerIsResting = false&#13;&#10;end&#13;&#10;&#13;&#10;function joinTeam(humanoid)&#13;&#10;&#9;local team = Instance.new(&quot;Color3Value&quot;)&#13;&#10;&#9;team.Value = teamColor&#13;&#10;&#9;team.Name = &quot;Team&quot;&#13;&#10;&#9;team.Parent = humanoid&#13;&#10;&#9;humanoid.Torso.Color = teamColor&#13;&#10;&#9;humanoid.Torso.Reflectance = 0.2&#13;&#10;&#9;humanoid.LeftLeg.Color = teamColor&#13;&#10;&#9;humanoid.LeftLeg.Reflectance = 0.2&#13;&#10;&#9;humanoid.RightLeg.Color = teamColor&#13;&#10;&#9;humanoid.RightLeg.Reflectance = 0.2&#13;&#10;end&#13;&#10;&#13;&#10;function onTouchHumanoid(humanoid)&#13;&#10;&#9;local team = humanoid:findFirstChild(&quot;Team&quot;, false)&#13;&#10;&#9;if team==nil then&#13;&#10;&#9;&#9;joinTeam(humanoid)&#13;&#10;&#9;elseif team.Value~=teamColor then&#13;&#10;&#9;&#9;-- Harm the enemy!&#13;&#10;&#9;&#9;humanoid.Health = 0&#13;&#10;&#9;&#9;return&#13;&#10;&#9;end&#13;&#10;&#9;&#13;&#10;&#9;if not healerIsResting then&#13;&#10;&#9;&#9;-- Heal the player&#13;&#10;&#9;&#9;humanoid.Health = humanoid.Health + 50&#13;&#10;&#9;&#9;coroutine.resume(coroutine.create(restHealer))&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;goingUp = false&#13;&#10;function goUp(speed)&#13;&#10;&#9;if goingUp then&#13;&#10;&#9;&#9;return&#13;&#10;&#9;end&#13;&#10;&#9;goingUp = true&#13;&#10;&#9;vel.velocity = Vector3.new(0,speed,0)&#13;&#10;&#9;wait(20/speed)&#13;&#10;&#9;vel.velocity = Vector3.new(0,-2,0)&#13;&#10;&#9;goingUp = false&#13;&#10;end&#13;&#10;&#13;&#10;function onTouch(touchedPart)&#13;&#10;&#9;-- see if a character touched it&#13;&#10;&#9;local parent = touchedPart.Parent&#13;&#10;&#9;&#9;if parent~=nill then&#13;&#10;&#9;&#9;local humanoid = parent:findFirstChild(&quot;Humanoid&quot;, false);&#13;&#10;&#9;&#9;if humanoid ~= nill then&#13;&#10;&#9;&#9;&#9;onTouchHumanoid(humanoid)&#13;&#10;&#9;&#9;&#9;goUp(10)&#13;&#10;&#9;&#9;&#9;return&#13;&#10;&#9;&#9;end&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;-- change direction&#13;&#10;&#9;if touchedPart.Position.y &gt; beacon.Center.Position.y then&#13;&#10;&#9;&#9;vel.velocity = Vector3.new(0,-2,0)&#13;&#10;&#9;&#9;goingUp = false&#13;&#10;&#9;elseif touchedPart.Position.y &lt; beacon.Center.Position.y then&#13;&#10;&#9;&#9;goUp(2)&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;function connectPart(part)&#13;&#10;&#9;part.Color = teamColor&#13;&#10;&#9;part.Touched:connect(onTouch)&#13;&#10;end&#13;&#10;&#13;&#10;-- listen to touches from each part&#13;&#10;connectPart(beacon.Center)&#13;&#10;connectPart(beacon.Top)&#13;&#10;connectPart(beacon.Bottom)&#13;&#10;connectPart(beacon.Left)&#13;&#10;connectPart(beacon.Right)&#13;&#10;connectPart(beacon.Front)&#13;&#10;connectPart(beacon.Back)&#13;&#10;&#13;&#10;&#13;&#10;function rebuildBeacon()&#13;&#10;&#9;cf = beacon.Center.CFrame&#13;&#10;&#9;beacon.Top.CFrame = cf * CFrame.new(0,3,0)&#13;&#10;&#9;beacon.Top:makeJoints()&#13;&#10;&#9;beacon.Bottom.CFrame = cf * CFrame.new(0,-3,0)&#13;&#10;&#9;beacon.Bottom:makeJoints()&#13;&#10;&#9;beacon.Left.CFrame = cf * CFrame.new(3,0,0)&#13;&#10;&#9;beacon.Left:makeJoints()&#13;&#10;&#9;beacon.Right.CFrame = cf * CFrame.new(-3,0,0)&#13;&#10;&#9;beacon.Right:makeJoints()&#13;&#10;&#9;beacon.Front.CFrame = cf * CFrame.new(0,0,-3)&#13;&#10;&#9;beacon.Front:makeJoints()&#13;&#10;&#9;beacon.Back.CFrame = cf * CFrame.new(0,0,3)&#13;&#10;&#9;beacon.Back:makeJoints()&#13;&#10;end&#13;&#10;&#13;&#10;-- This is a safety check, in case a part is being deleted from the world&#13;&#10;beacon.ChildRemoved:connect(function(child) wait() child.Parent = beacon rebuildBeacon() end)&#13;&#10;&#13;&#10;-- periodically re-join the studs to the center&#13;&#10;while true do&#13;&#10;&#9;wait(30)&#13;&#10;&#9;rebuildBeacon()&#13;&#10;end&#13;&#10;&#13;&#10;</string>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="Model">
+		<Properties>
+			<token name="Controller">0</token>
+			<bool name="ControllerFlagShown">true</bool>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">TeamBeacon Black</string>
+			<Ref name="PrimaryPart">RBX1</Ref>
+		</Properties>
+		<Item class="Part" referent="RBX1">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">2</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">2</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">24</int>
+				<CoordinateFrame name="CFrame">
+					<X>211.997421</X>
+					<Y>18.2989521</Y>
+					<Z>7.99511194</Z>
+					<R00>-0.337198406</R00>
+					<R01>0.0987258404</R01>
+					<R02>-0.936242819</R02>
+					<R10>-0.583242595</R10>
+					<R11>0.758740783</R11>
+					<R12>0.290069818</R12>
+					<R20>0.739003003</R20>
+					<R21>0.643867731</R21>
+					<R22>-0.198265105</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">2</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">2</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Center</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">2</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0.000340147468</X>
+					<Y>-1.58095531e-006</Y>
+					<Z>0.000203101212</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">2</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0.5</float>
+				<Vector3 name="Velocity">
+					<X>-0.0174560566</X>
+					<Y>1.84304011</Y>
+					<Z>0.000949859561</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>4</X>
+					<Y>4</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="BodyPosition">
+				<Properties>
+					<float name="D">1250</float>
+					<string name="Name">BodyPosition</string>
+					<float name="P">10000</float>
+					<Vector3 name="maxForce">
+						<X>500</X>
+						<Y>0</Y>
+						<Z>500</Z>
+					</Vector3>
+					<Vector3 name="position">
+						<X>211.995239</X>
+						<Y>4.45820475</Y>
+						<Z>7.99523067</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="BodyVelocity">
+				<Properties>
+					<string name="Name">BodyVelocity</string>
+					<float name="P">1250</float>
+					<Vector3 name="maxForce">
+						<X>0</X>
+						<Y>40000</Y>
+						<Z>0</Z>
+					</Vector3>
+					<Vector3 name="velocity">
+						<X>0</X>
+						<Y>2</Y>
+						<Z>0</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">24</int>
+				<CoordinateFrame name="CFrame">
+					<X>212.293594</X>
+					<Y>20.5751743</Y>
+					<Z>9.9267149</Z>
+					<R00>-0.337198406</R00>
+					<R01>0.0987258404</R01>
+					<R02>-0.936242819</R02>
+					<R10>-0.583242595</R10>
+					<R11>0.758740783</R11>
+					<R12>0.290069818</R12>
+					<R20>0.739003003</R20>
+					<R21>0.643867731</R21>
+					<R22>-0.198265105</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Top</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0.000340147468</X>
+					<Y>-1.58095531e-006</Y>
+					<Z>0.000203101212</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>-0.0179214142</X>
+					<Y>1.84244323</Y>
+					<Z>0.00172457902</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">24</int>
+				<CoordinateFrame name="CFrame">
+					<X>211.701248</X>
+					<Y>16.0227299</Y>
+					<Z>6.06350899</Z>
+					<R00>-0.337198406</R00>
+					<R01>0.0987258404</R01>
+					<R02>-0.936242819</R02>
+					<R10>-0.583242595</R10>
+					<R11>0.758740783</R11>
+					<R12>0.290069818</R12>
+					<R20>0.739003003</R20>
+					<R21>0.643867731</R21>
+					<R22>-0.198265105</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Bottom</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0.000340147468</X>
+					<Y>-1.58095531e-006</Y>
+					<Z>0.000203101212</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>-0.0169906989</X>
+					<Y>1.84363699</Y>
+					<Z>0.0001751401</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">24</int>
+				<CoordinateFrame name="CFrame">
+					<X>210.985825</X>
+					<Y>16.5492249</Y>
+					<Z>10.212121</Z>
+					<R00>-0.337198406</R00>
+					<R01>0.0987258404</R01>
+					<R02>-0.936242819</R02>
+					<R10>-0.583242595</R10>
+					<R11>0.758740783</R11>
+					<R12>0.290069818</R12>
+					<R20>0.739003003</R20>
+					<R21>0.643867731</R21>
+					<R22>-0.198265105</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Left</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0.000340147468</X>
+					<Y>-1.58095531e-006</Y>
+					<Z>0.000203101212</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>-0.0171041898</X>
+					<Y>1.84208059</Y>
+					<Z>0.000353094976</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">24</int>
+				<CoordinateFrame name="CFrame">
+					<X>213.009018</X>
+					<Y>20.0486794</Y>
+					<Z>5.77810287</Z>
+					<R00>-0.337198406</R00>
+					<R01>0.0987258404</R01>
+					<R02>-0.936242819</R02>
+					<R10>-0.583242595</R10>
+					<R11>0.758740783</R11>
+					<R12>0.290069818</R12>
+					<R20>0.739003003</R20>
+					<R21>0.643867731</R21>
+					<R22>-0.198265105</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Right</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0.000340147468</X>
+					<Y>-1.58095531e-006</Y>
+					<Z>0.000203101212</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>-0.0178079233</X>
+					<Y>1.84399962</Y>
+					<Z>0.00154662412</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">24</int>
+				<CoordinateFrame name="CFrame">
+					<X>214.806152</X>
+					<Y>17.4287434</Y>
+					<Z>8.58990765</Z>
+					<R00>-0.337198406</R00>
+					<R01>0.0987258404</R01>
+					<R02>-0.936242819</R02>
+					<R10>-0.583242595</R10>
+					<R11>0.758740783</R11>
+					<R12>0.290069818</R12>
+					<R20>0.739003003</R20>
+					<R21>0.643867731</R21>
+					<R22>-0.198265105</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Front</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0.000340147468</X>
+					<Y>-1.58095531e-006</Y>
+					<Z>0.000203101212</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>-0.0172802564</X>
+					<Y>1.84340823</Y>
+					<Z>0.000658300763</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">24</int>
+				<CoordinateFrame name="CFrame">
+					<X>209.18869</X>
+					<Y>19.1691608</Y>
+					<Z>7.40031672</Z>
+					<R00>-0.337198406</R00>
+					<R01>0.0987258404</R01>
+					<R02>-0.936242819</R02>
+					<R10>-0.583242595</R10>
+					<R11>0.758740783</R11>
+					<R12>0.290069818</R12>
+					<R20>0.739003003</R20>
+					<R21>0.643867731</R21>
+					<R22>-0.198265105</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Back</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>0.000340147468</X>
+					<Y>-1.58095531e-006</Y>
+					<Z>0.000203101212</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>-0.0176318567</X>
+					<Y>1.84267199</Y>
+					<Z>0.00124141842</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Script">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<string name="Name">Script</string>
+				<string name="Source">step, time = wait()&#13;&#10;&#13;&#10;beacon = script.Parent&#13;&#10;&#13;&#10;-- obtain goals based on Center part&#13;&#10;beacon.Center.BodyPosition.position = beacon.Center.Position&#13;&#10;teamColor = beacon.Center.Color&#13;&#10;&#13;&#10;vel = beacon.Center.BodyVelocity&#13;&#10;&#13;&#10;healerIsResting = false&#13;&#10;&#13;&#10;function restHealer()&#13;&#10;&#9;healerIsResting = true&#13;&#10;&#9;wait(5)&#13;&#10;&#9;healerIsResting = false&#13;&#10;end&#13;&#10;&#13;&#10;function joinTeam(humanoid)&#13;&#10;&#9;local team = Instance.new(&quot;Color3Value&quot;)&#13;&#10;&#9;team.Value = teamColor&#13;&#10;&#9;team.Name = &quot;Team&quot;&#13;&#10;&#9;team.Parent = humanoid&#13;&#10;&#9;humanoid.Torso.Color = teamColor&#13;&#10;&#9;humanoid.Torso.Reflectance = 0.2&#13;&#10;&#9;humanoid.LeftLeg.Color = teamColor&#13;&#10;&#9;humanoid.LeftLeg.Reflectance = 0.2&#13;&#10;&#9;humanoid.RightLeg.Color = teamColor&#13;&#10;&#9;humanoid.RightLeg.Reflectance = 0.2&#13;&#10;end&#13;&#10;&#13;&#10;function onTouchHumanoid(humanoid)&#13;&#10;&#9;local team = humanoid:findFirstChild(&quot;Team&quot;, false)&#13;&#10;&#9;if team==nil then&#13;&#10;&#9;&#9;joinTeam(humanoid)&#13;&#10;&#9;elseif team.Value~=teamColor then&#13;&#10;&#9;&#9;-- Harm the enemy!&#13;&#10;&#9;&#9;humanoid.Health = 0&#13;&#10;&#9;&#9;return&#13;&#10;&#9;end&#13;&#10;&#9;&#13;&#10;&#9;if not healerIsResting then&#13;&#10;&#9;&#9;-- Heal the player&#13;&#10;&#9;&#9;humanoid.Health = humanoid.Health + 50&#13;&#10;&#9;&#9;coroutine.resume(coroutine.create(restHealer))&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;goingUp = false&#13;&#10;function goUp(speed)&#13;&#10;&#9;if goingUp then&#13;&#10;&#9;&#9;return&#13;&#10;&#9;end&#13;&#10;&#9;goingUp = true&#13;&#10;&#9;vel.velocity = Vector3.new(0,speed,0)&#13;&#10;&#9;wait(20/speed)&#13;&#10;&#9;vel.velocity = Vector3.new(0,-2,0)&#13;&#10;&#9;goingUp = false&#13;&#10;end&#13;&#10;&#13;&#10;function onTouch(touchedPart)&#13;&#10;&#9;-- see if a character touched it&#13;&#10;&#9;local parent = touchedPart.Parent&#13;&#10;&#9;&#9;if parent~=nill then&#13;&#10;&#9;&#9;local humanoid = parent:findFirstChild(&quot;Humanoid&quot;, false);&#13;&#10;&#9;&#9;if humanoid ~= nill then&#13;&#10;&#9;&#9;&#9;onTouchHumanoid(humanoid)&#13;&#10;&#9;&#9;&#9;goUp(10)&#13;&#10;&#9;&#9;&#9;return&#13;&#10;&#9;&#9;end&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;-- change direction&#13;&#10;&#9;if touchedPart.Position.y &gt; beacon.Center.Position.y then&#13;&#10;&#9;&#9;vel.velocity = Vector3.new(0,-2,0)&#13;&#10;&#9;&#9;goingUp = false&#13;&#10;&#9;elseif touchedPart.Position.y &lt; beacon.Center.Position.y then&#13;&#10;&#9;&#9;goUp(2)&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;function connectPart(part)&#13;&#10;&#9;part.Color = teamColor&#13;&#10;&#9;part.Touched:connect(onTouch)&#13;&#10;end&#13;&#10;&#13;&#10;-- listen to touches from each part&#13;&#10;connectPart(beacon.Center)&#13;&#10;connectPart(beacon.Top)&#13;&#10;connectPart(beacon.Bottom)&#13;&#10;connectPart(beacon.Left)&#13;&#10;connectPart(beacon.Right)&#13;&#10;connectPart(beacon.Front)&#13;&#10;connectPart(beacon.Back)&#13;&#10;&#13;&#10;&#13;&#10;function rebuildBeacon()&#13;&#10;&#9;cf = beacon.Center.CFrame&#13;&#10;&#9;beacon.Top.CFrame = cf * CFrame.new(0,3,0)&#13;&#10;&#9;beacon.Top:makeJoints()&#13;&#10;&#9;beacon.Bottom.CFrame = cf * CFrame.new(0,-3,0)&#13;&#10;&#9;beacon.Bottom:makeJoints()&#13;&#10;&#9;beacon.Left.CFrame = cf * CFrame.new(3,0,0)&#13;&#10;&#9;beacon.Left:makeJoints()&#13;&#10;&#9;beacon.Right.CFrame = cf * CFrame.new(-3,0,0)&#13;&#10;&#9;beacon.Right:makeJoints()&#13;&#10;&#9;beacon.Front.CFrame = cf * CFrame.new(0,0,-3)&#13;&#10;&#9;beacon.Front:makeJoints()&#13;&#10;&#9;beacon.Back.CFrame = cf * CFrame.new(0,0,3)&#13;&#10;&#9;beacon.Back:makeJoints()&#13;&#10;end&#13;&#10;&#13;&#10;-- This is a safety check, in case a part is being deleted from the world&#13;&#10;beacon.ChildRemoved:connect(function(child) wait() child.Parent = beacon rebuildBeacon() end)&#13;&#10;&#13;&#10;-- periodically re-join the studs to the center&#13;&#10;while true do&#13;&#10;&#9;wait(30)&#13;&#10;&#9;rebuildBeacon()&#13;&#10;end&#13;&#10;&#13;&#10;</string>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="Model">
+		<Properties>
+			<token name="Controller">0</token>
+			<bool name="ControllerFlagShown">true</bool>
+			<CoordinateFrame name="ModelInPrimary">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<string name="Name">WIN!!!!</string>
+			<Ref name="PrimaryPart">RBX2</Ref>
+		</Properties>
+		<Item class="Part" referent="RBX2">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">2</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">2</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">38</int>
+				<CoordinateFrame name="CFrame">
+					<X>211.990936</X>
+					<Y>5.94866514</Y>
+					<Z>29.9947014</Z>
+					<R00>0.758052886</R00>
+					<R01>0.24694702</R01>
+					<R02>-0.603633165</R02>
+					<R10>-0.564699888</R10>
+					<R11>0.711580753</R11>
+					<R12>-0.418051273</R12>
+					<R20>0.326297224</R20>
+					<R21>0.657776535</R21>
+					<R22>0.678866804</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">2</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">2</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Center</string>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">2</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>-0.000558702741</X>
+					<Y>-7.42482409e-010</Y>
+					<Z>-0.000893463963</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">2</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0.5</float>
+				<Vector3 name="Velocity">
+					<X>0.0344238244</X>
+					<Y>-2.15695977</Y>
+					<Z>0.00422668457</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>4</X>
+					<Y>4</Y>
+					<Z>4</Z>
+				</Vector3>
+			</Properties>
+			<Item class="BodyPosition">
+				<Properties>
+					<float name="D">1250</float>
+					<string name="Name">BodyPosition</string>
+					<float name="P">10000</float>
+					<Vector3 name="maxForce">
+						<X>500</X>
+						<Y>0</Y>
+						<Z>500</Z>
+					</Vector3>
+					<Vector3 name="position">
+						<X>211.995239</X>
+						<Y>6.45820475</Y>
+						<Z>29.9952297</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+			<Item class="BodyVelocity">
+				<Properties>
+					<string name="Name">BodyVelocity</string>
+					<float name="P">1250</float>
+					<Vector3 name="maxForce">
+						<X>0</X>
+						<Y>40000</Y>
+						<Z>0</Z>
+					</Vector3>
+					<Vector3 name="velocity">
+						<X>0</X>
+						<Y>-2</Y>
+						<Z>0</Z>
+					</Vector3>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">38</int>
+				<CoordinateFrame name="CFrame">
+					<X>212.731781</X>
+					<Y>8.0834074</Y>
+					<Z>31.9680309</Z>
+					<R00>0.758052886</R00>
+					<R01>0.24694702</R01>
+					<R02>-0.603633165</R02>
+					<R10>-0.564699888</R10>
+					<R11>0.711580753</R11>
+					<R12>-0.418051273</R12>
+					<R20>0.326297224</R20>
+					<R21>0.657776535</R21>
+					<R22>0.678866804</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Top</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>-0.000558702741</X>
+					<Y>-7.42482409e-010</Y>
+					<Z>-0.000893463963</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0.0363311395</X>
+					<Y>-2.15651917</Y>
+					<Z>0.00303399866</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">38</int>
+				<CoordinateFrame name="CFrame">
+					<X>211.250092</X>
+					<Y>3.81392288</Y>
+					<Z>28.0213718</Z>
+					<R00>0.758052886</R00>
+					<R01>0.24694702</R01>
+					<R02>-0.603633165</R02>
+					<R10>-0.564699888</R10>
+					<R11>0.711580753</R11>
+					<R12>-0.418051273</R12>
+					<R20>0.326297224</R20>
+					<R21>0.657776535</R21>
+					<R22>0.678866804</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Bottom</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>-0.000558702741</X>
+					<Y>-7.42482409e-010</Y>
+					<Z>-0.000893463963</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0.0325165093</X>
+					<Y>-2.15740037</Y>
+					<Z>0.00541937025</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">38</int>
+				<CoordinateFrame name="CFrame">
+					<X>214.265091</X>
+					<Y>4.25456524</Y>
+					<Z>30.9735928</Z>
+					<R00>0.758052886</R00>
+					<R01>0.24694702</R01>
+					<R02>-0.603633165</R02>
+					<R10>-0.564699888</R10>
+					<R11>0.711580753</R11>
+					<R12>-0.418051273</R12>
+					<R20>0.326297224</R20>
+					<R21>0.657776535</R21>
+					<R22>0.678866804</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Left</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>-0.000558702741</X>
+					<Y>-7.42482409e-010</Y>
+					<Z>-0.000893463963</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0.0329102054</X>
+					<Y>-2.15844464</Y>
+					<Z>0.00517318444</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">38</int>
+				<CoordinateFrame name="CFrame">
+					<X>209.716782</X>
+					<Y>7.64276505</Y>
+					<Z>29.01581</Z>
+					<R00>0.758052886</R00>
+					<R01>0.24694702</R01>
+					<R02>-0.603633165</R02>
+					<R10>-0.564699888</R10>
+					<R11>0.711580753</R11>
+					<R12>-0.418051273</R12>
+					<R20>0.326297224</R20>
+					<R21>0.657776535</R21>
+					<R22>0.678866804</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Right</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>-0.000558702741</X>
+					<Y>-7.42482409e-010</Y>
+					<Z>-0.000893463963</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0.0359374434</X>
+					<Y>-2.1554749</Y>
+					<Z>0.0032801847</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">38</int>
+				<CoordinateFrame name="CFrame">
+					<X>213.801834</X>
+					<Y>7.20281887</Y>
+					<Z>27.9581013</Z>
+					<R00>0.758052886</R00>
+					<R01>0.24694702</R01>
+					<R02>-0.603633165</R02>
+					<R10>-0.564699888</R10>
+					<R11>0.711580753</R11>
+					<R12>-0.418051273</R12>
+					<R20>0.326297224</R20>
+					<R21>0.657776535</R21>
+					<R22>0.678866804</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Front</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>-0.000558702741</X>
+					<Y>-7.42482409e-010</Y>
+					<Z>-0.000893463963</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0.0355443656</X>
+					<Y>-2.15971565</Y>
+					<Z>0.0035259868</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Part">
+			<Properties>
+				<bool name="Anchored">false</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">0</token>
+				<token name="BottomSurfaceInput">0</token>
+				<int name="BrickColor">38</int>
+				<CoordinateFrame name="CFrame">
+					<X>210.180038</X>
+					<Y>4.69451141</Y>
+					<Z>32.0313034</Z>
+					<R00>0.758052886</R00>
+					<R01>0.24694702</R01>
+					<R02>-0.603633165</R02>
+					<R10>-0.564699888</R10>
+					<R11>0.711580753</R11>
+					<R12>-0.418051273</R12>
+					<R20>0.326297224</R20>
+					<R21>0.657776535</R21>
+					<R22>0.678866804</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CastsShadows">true</bool>
+				<token name="Controller">0</token>
+				<bool name="ControllerFlagShown">true</bool>
+				<bool name="Cullable">true</bool>
+				<bool name="DraggingV1">false</bool>
+				<float name="Elasticity">0.5</float>
+				<token name="FormFactor">0</token>
+				<float name="Friction">0.300000012</float>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">false</bool>
+				<string name="Name">Back</string>
+				<float name="Reflectance">0.200000003</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<Vector3 name="RotVelocity">
+					<X>-0.000558702741</X>
+					<Y>-7.42482409e-010</Y>
+					<Z>-0.000893463963</Z>
+				</Vector3>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">0</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<Vector3 name="Velocity">
+					<X>0.0333032832</X>
+					<Y>-2.15420389</Y>
+					<Z>0.00492738234</Z>
+				</Vector3>
+				<token name="shape">2</token>
+				<Vector3 name="size">
+					<X>2</X>
+					<Y>2</Y>
+					<Z>2</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Script">
+			<Properties>
+				<bool name="Disabled">false</bool>
+				<string name="Name">Script</string>
+				<string name="Source">step, time = wait()&#13;&#10;&#13;&#10;beacon = script.Parent&#13;&#10;&#13;&#10;-- obtain goals based on Center part&#13;&#10;beacon.Center.BodyPosition.position = beacon.Center.Position&#13;&#10;teamColor = beacon.Center.Color&#13;&#10;&#13;&#10;vel = beacon.Center.BodyVelocity&#13;&#10;&#13;&#10;healerIsResting = false&#13;&#10;&#13;&#10;function restHealer()&#13;&#10;&#9;healerIsResting = true&#13;&#10;&#9;wait(5)&#13;&#10;&#9;healerIsResting = false&#13;&#10;end&#13;&#10;&#13;&#10;function joinTeam(humanoid)&#13;&#10;&#9;local team = Instance.new(&quot;Color3Value&quot;)&#13;&#10;&#9;team.Value = teamColor&#13;&#10;&#9;team.Name = &quot;Team&quot;&#13;&#10;&#9;team.Parent = humanoid&#13;&#10;&#9;humanoid.Torso.Color = teamColor&#13;&#10;&#9;humanoid.Torso.Reflectance = 0.2&#13;&#10;&#9;humanoid.LeftLeg.Color = teamColor&#13;&#10;&#9;humanoid.LeftLeg.Reflectance = 0.2&#13;&#10;&#9;humanoid.RightLeg.Color = teamColor&#13;&#10;&#9;humanoid.RightLeg.Reflectance = 0.2&#13;&#10;end&#13;&#10;&#13;&#10;function onTouchHumanoid(humanoid)&#13;&#10;&#9;local team = humanoid:findFirstChild(&quot;Team&quot;, false)&#13;&#10;&#9;if team==nil then&#13;&#10;&#9;&#9;joinTeam(humanoid)&#13;&#10;&#9;elseif team.Value~=teamColor then&#13;&#10;&#9;&#9;-- Harm the enemy!&#13;&#10;&#9;&#9;humanoid.Health = 0&#13;&#10;&#9;&#9;return&#13;&#10;&#9;end&#13;&#10;&#9;&#13;&#10;&#9;if not healerIsResting then&#13;&#10;&#9;&#9;-- Heal the player&#13;&#10;&#9;&#9;humanoid.Health = humanoid.Health + 50&#13;&#10;&#9;&#9;coroutine.resume(coroutine.create(restHealer))&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;goingUp = false&#13;&#10;function goUp(speed)&#13;&#10;&#9;if goingUp then&#13;&#10;&#9;&#9;return&#13;&#10;&#9;end&#13;&#10;&#9;goingUp = true&#13;&#10;&#9;vel.velocity = Vector3.new(0,speed,0)&#13;&#10;&#9;wait(20/speed)&#13;&#10;&#9;vel.velocity = Vector3.new(0,-2,0)&#13;&#10;&#9;goingUp = false&#13;&#10;end&#13;&#10;&#13;&#10;function onTouch(touchedPart)&#13;&#10;&#9;-- see if a character touched it&#13;&#10;&#9;local parent = touchedPart.Parent&#13;&#10;&#9;&#9;if parent~=nill then&#13;&#10;&#9;&#9;local humanoid = parent:findFirstChild(&quot;Humanoid&quot;, false);&#13;&#10;&#9;&#9;if humanoid ~= nill then&#13;&#10;&#9;&#9;&#9;onTouchHumanoid(humanoid)&#13;&#10;&#9;&#9;&#9;goUp(10)&#13;&#10;&#9;&#9;&#9;return&#13;&#10;&#9;&#9;end&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;-- change direction&#13;&#10;&#9;if touchedPart.Position.y &gt; beacon.Center.Position.y then&#13;&#10;&#9;&#9;vel.velocity = Vector3.new(0,-2,0)&#13;&#10;&#9;&#9;goingUp = false&#13;&#10;&#9;elseif touchedPart.Position.y &lt; beacon.Center.Position.y then&#13;&#10;&#9;&#9;goUp(2)&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;function connectPart(part)&#13;&#10;&#9;part.Color = teamColor&#13;&#10;&#9;part.Touched:connect(onTouch)&#13;&#10;end&#13;&#10;&#13;&#10;-- listen to touches from each part&#13;&#10;connectPart(beacon.Center)&#13;&#10;connectPart(beacon.Top)&#13;&#10;connectPart(beacon.Bottom)&#13;&#10;connectPart(beacon.Left)&#13;&#10;connectPart(beacon.Right)&#13;&#10;connectPart(beacon.Front)&#13;&#10;connectPart(beacon.Back)&#13;&#10;&#13;&#10;&#13;&#10;function rebuildBeacon()&#13;&#10;&#9;cf = beacon.Center.CFrame&#13;&#10;&#9;beacon.Top.CFrame = cf * CFrame.new(0,3,0)&#13;&#10;&#9;beacon.Top:makeJoints()&#13;&#10;&#9;beacon.Bottom.CFrame = cf * CFrame.new(0,-3,0)&#13;&#10;&#9;beacon.Bottom:makeJoints()&#13;&#10;&#9;beacon.Left.CFrame = cf * CFrame.new(3,0,0)&#13;&#10;&#9;beacon.Left:makeJoints()&#13;&#10;&#9;beacon.Right.CFrame = cf * CFrame.new(-3,0,0)&#13;&#10;&#9;beacon.Right:makeJoints()&#13;&#10;&#9;beacon.Front.CFrame = cf * CFrame.new(0,0,-3)&#13;&#10;&#9;beacon.Front:makeJoints()&#13;&#10;&#9;beacon.Back.CFrame = cf * CFrame.new(0,0,3)&#13;&#10;&#9;beacon.Back:makeJoints()&#13;&#10;end&#13;&#10;&#13;&#10;-- This is a safety check, in case a part is being deleted from the world&#13;&#10;beacon.ChildRemoved:connect(function(child) wait() child.Parent = beacon rebuildBeacon() end)&#13;&#10;&#13;&#10;-- periodically re-join the studs to the center&#13;&#10;while true do&#13;&#10;&#9;wait(30)&#13;&#10;&#9;rebuildBeacon()&#13;&#10;end&#13;&#10;&#13;&#10;</string>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>

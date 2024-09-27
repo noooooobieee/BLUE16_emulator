@@ -1,0 +1,217 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Part" referent="RBX0">
+		<Properties>
+			<CoordinateFrame name="CFrame">
+				<X>12.4999924</X>
+				<Y>1.9000001</Y>
+				<Z>-11.5000114</Z>
+				<R00>-1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>-1</R22>
+			</CoordinateFrame>
+			<Vector3 name="Velocity">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Vector3>
+			<Vector3 name="RotVelocity">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Vector3>
+			<token name="shape">0</token>
+			<int name="BrickColor">106</int>
+			<float name="Transparency">0</float>
+			<float name="Reflectance">0</float>
+			<bool name="Locked">false</bool>
+			<bool name="Anchored">false</bool>
+			<bool name="CanCollide">true</bool>
+			<token name="FormFactor">0</token>
+			<Vector3 name="size">
+				<X>3</X>
+				<Y>3</Y>
+				<Z>3</Z>
+			</Vector3>
+			<float name="Elasticity">0.5</float>
+			<float name="Friction">0.300000012</float>
+			<string name="Name">Gobbler</string>
+			<tokens name="Keywords">Part</tokens>
+			<token name="TopSurface">0</token>
+			<token name="TopSurfaceInput">0</token>
+			<float name="TopParamA">-0.5</float>
+			<float name="TopParamB">0.5</float>
+			<token name="BottomSurface">0</token>
+			<token name="BottomSurfaceInput">0</token>
+			<float name="BottomParamA">-0.5</float>
+			<float name="BottomParamB">0.5</float>
+			<token name="LeftSurface">0</token>
+			<token name="LeftSurfaceInput">0</token>
+			<float name="LeftParamA">-0.5</float>
+			<float name="LeftParamB">0.5</float>
+			<token name="RightSurface">0</token>
+			<token name="RightSurfaceInput">0</token>
+			<float name="RightParamA">-0.5</float>
+			<float name="RightParamB">0.5</float>
+			<token name="FrontSurface">0</token>
+			<token name="FrontSurfaceInput">0</token>
+			<float name="FrontParamA">-0.5</float>
+			<float name="FrontParamB">0.5</float>
+			<token name="BackSurface">0</token>
+			<token name="BackSurfaceInput">0</token>
+			<float name="BackParamA">-0.5</float>
+			<float name="BackParamB">0.5</float>
+			<bool name="NameShown">false</bool>
+			<bool name="ControllerFlagShown">true</bool>
+			<token name="Controller">0</token>
+		</Properties>
+		<Item class="Script">
+			<Properties>
+				<string name="Name">Script</string>
+				<tokens name="Keywords" xsi:nil="true"></tokens>
+				<string name="Source">local r = game:service(&quot;RunService&quot;);&#13;&#10;&#13;&#10;local nextTime = 0&#13;&#10;&#13;&#10;local vx = 0&#13;&#10;local vz = 2&#13;&#10;&#13;&#10;local head = script.Parent&#13;&#10;&#13;&#10;local poopCount = 0&#13;&#10;&#13;&#10;function bounce()&#13;&#10;&#9;head.Velocity = Vector3.new(math.random(40)-20,math.random(100),math.random(40)-20)&#13;&#10;end&#13;&#10;&#13;&#10;&#13;&#10;function gobble(part)&#13;&#10;&#9;if (part.Name~=&quot;Base&quot;) and (part.Name~=&quot;Poop&quot;) then&#13;&#10;&#9;&#9;part.Parent = nil&#13;&#10;&#9;&#9;poopCount = poopCount + 1&#13;&#10;&#9;end&#13;&#10;&#9;bounce()&#13;&#10;end&#13;&#10;&#13;&#10;head.Touched:connect(gobble)&#13;&#10;&#13;&#10;&#13;&#10;function move(time)&#13;&#10;&#13;&#10;&#9;-- Reduce RotVelocity&#13;&#10;&#9;local v = head.RotVelocity&#13;&#10;&#9;head.RotVelocity = Vector3.new(v.x/2,v.y/2,v.z/2)&#13;&#10;&#13;&#10;&#13;&#10;&#9;-- Poop&#13;&#10;&#9;if poopCount&gt;0 then &#13;&#10;&#9;&#9;local poop = Instance.new(&quot;Part&quot;)&#13;&#10;&#13;&#10;&#9;&#9;local p = head.Position&#13;&#10;&#9;&#9;poop.Position = p&#13;&#10;&#9;&#9;head.Position = Vector3.new(p.x, p.y+2, p.z)&#13;&#10;&#9;&#9;poop.Size = Vector3.new(1,1,1)&#13;&#10;&#9;&#9;poop.BrickColor = BrickColor.new(192)&#13;&#10;&#9;&#9;poop.Name = &quot;Poop&quot;&#13;&#10;&#9;&#9;poop.Parent = head.Parent&#13;&#10;&#13;&#10;&#9;&#9;poopCount = poopCount - 1&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#13;&#10;end&#13;&#10;&#13;&#10;bounce()&#13;&#10;&#13;&#10;while head.Parent~=nil do&#13;&#10;&#13;&#10;&#9;time = r.Stepped:wait()&#13;&#10;&#13;&#10;&#9;local p = head.Position&#13;&#10;&#9;if p.x&gt;=30 then&#13;&#10;&#9;&#9;head.Velocity = Vector3.new(-20, 20, 0)&#13;&#10;&#9;elseif p.x&lt;=-30 then&#13;&#10;&#9;&#9;head.Velocity = Vector3.new(20, 20, 0)&#13;&#10;&#9;end&#13;&#10;&#13;&#10;&#9;if p.z&gt;=30 then&#13;&#10;&#9;&#9;head.Velocity = Vector3.new(0, 20, -20)&#13;&#10;&#9;elseif p.z&lt;=-30 then&#13;&#10;&#9;&#9;head.Velocity = Vector3.new(0, 20, 20)&#13;&#10;&#9;end&#13;&#10;&#13;&#10;   if time &gt; nextTime then&#13;&#10;&#9;&#9;move(time)&#13;&#10;&#9;&#9;nextTime = time + 0.1&#13;&#10;&#9;end&#13;&#10;end&#13;&#10;&#13;&#10;&#13;&#10;</string>
+			</Properties>
+		</Item>
+		<Item class="Decal" referent="RBX1">
+			<Properties>
+				<string name="Name">3719</string>
+				<tokens name="Keywords" xsi:nil="true"></tokens>
+				<Content name="Texture" mimeType="image/jpeg"><binary xmime:contentType="image/jpeg">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</binary></Content>
+				<float name="Specular">0</float>
+				<float name="Shiny">20</float>
+				<token name="Face">5</token>
+			</Properties>
+		</Item>
+		<Item class="Decal" referent="RBX2">
+			<Properties>
+				<string name="Name">3719</string>
+				<tokens name="Keywords" xsi:nil="true"></tokens>
+				<Content name="Texture" mimeType="image/jpeg"><hash>2582d250a4912f523180c7d88049e3e4</hash></Content>
+				<float name="Specular">0</float>
+				<float name="Shiny">20</float>
+				<token name="Face">1</token>
+			</Properties>
+		</Item>
+		<Item class="Decal" referent="RBX3">
+			<Properties>
+				<string name="Name">3719</string>
+				<tokens name="Keywords" xsi:nil="true"></tokens>
+				<Content name="Texture" mimeType="image/jpeg"><hash>2582d250a4912f523180c7d88049e3e4</hash></Content>
+				<float name="Specular">0</float>
+				<float name="Shiny">20</float>
+				<token name="Face">4</token>
+			</Properties>
+		</Item>
+		<Item class="Decal" referent="RBX4">
+			<Properties>
+				<string name="Name">3719</string>
+				<tokens name="Keywords" xsi:nil="true"></tokens>
+				<Content name="Texture" mimeType="image/jpeg"><hash>2582d250a4912f523180c7d88049e3e4</hash></Content>
+				<float name="Specular">0</float>
+				<float name="Shiny">20</float>
+				<token name="Face">2</token>
+			</Properties>
+		</Item>
+		<Item class="Decal" referent="RBX5">
+			<Properties>
+				<string name="Name">3719</string>
+				<tokens name="Keywords" xsi:nil="true"></tokens>
+				<Content name="Texture" mimeType="image/jpeg"><hash>2582d250a4912f523180c7d88049e3e4</hash></Content>
+				<float name="Specular">0</float>
+				<float name="Shiny">20</float>
+				<token name="Face">0</token>
+			</Properties>
+		</Item>
+		<Item class="Decal" referent="RBX6">
+			<Properties>
+				<string name="Name">3719</string>
+				<tokens name="Keywords" xsi:nil="true"></tokens>
+				<Content name="Texture" mimeType="image/jpeg"><hash>2582d250a4912f523180c7d88049e3e4</hash></Content>
+				<float name="Specular">0</float>
+				<float name="Shiny">20</float>
+				<token name="Face">3</token>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>
