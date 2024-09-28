@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File List</title>
+</head>
+<body>
+    <input type="file" id="fileInput" multiple>
+    <button id="displayFiles">Display Files</button>
+    <div id="fileList"></div>
+
+    <script>
+        // Get the input element and button
+        const fileInput = document.getElementById('fileInput');
+        const displayFilesButton = document.getElementById('displayFiles');
+        const fileListDiv = document.getElementById('fileList');
+
+        // Add event listener to the button
+        displayFilesButton.addEventListener('click', () => {
+            // Get the selected files
+            const files = fileInput.files;
+
+            // Create a list of file names
+            const fileList = [];
+            for (let i = 0; i < files.length; i++) {
+                fileList.push(files[i].name);
+            }
+
+            // Display the file list
+            fileListDiv.innerHTML = '';
+            fileList.forEach((file) => {
+                const paragraph = document.createElement('p');
+                paragraph.textContent = file;
+                fileListDiv.appendChild(paragraph);
+            });
+        });
+    </script>
+</body>
+</html>
