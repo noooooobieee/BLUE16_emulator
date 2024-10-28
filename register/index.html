@@ -1,13 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<style>
+.register-form {
+	margin-top: 20px;
+}
+
+.register-form input {
+	margin-bottom: 10px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.register-form button[type="submit"] {
+	background-color: #00f;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.register-form button[type="submit"]:hover {
+	background-color: #006;
+	transform: scale(1.05);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.register-form button[type="submit"]:active {
+	transform: scale(0.95);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+#register-error {
+	color: #f00;
+}
+</style>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redirecting...</title>
-    <script type="text/javascript">
-        window.location.href = "https://yip.su/robloxrevival";
-    </script>
+	<title>BLUE16 - Register</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+	<div class="container">
+		<h1>BLUE16 - Register</h1>
+		<p>Create an account to access our app.</p>
+		<form id="register-form">
+			<input type="text" id="username" placeholder="Username">
+			<input type="email" id="email" placeholder="Email">
+			<input type="password" id="password" placeholder="Password">
+			<input type="password" id="confirm-password" placeholder="Confirm Password">
+			<button class="btn" id="register-btn">Register</button>
+		</form>
+		<p id="register-error"></p>
+	</div>
+	
+	<script>
+		const registerForm = document.getElementById('register-form');
+const registerBtn = document.getElementById('register-btn');
+const registerError = document.getElementById('register-error');
+
+registerBtn.addEventListener('click', (e) => {
+	e.preventDefault();
+	const username = document.getElementById('username').value;
+	const email = document.getElementById('email').value;
+	const password = document.getElementById('password').value;
+	const confirmPassword = document.getElementById('confirm-password').value;
+
+	if (password !== confirmPassword) {
+		registerError.textContent = 'Passwords do not match';
+		return;
+	}
+
+	fetch('/register', {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json'
+		},
+		body: JSON.stringify({
+			username,
+			email,
+			password
+		})
+	})
+	.then(response => response.json())
+	.then((data) => {
+		if (data.error) {
+			registerError.textContent = data.error;
+		} else {
+			window.location.href = '/home';
+		}
+	})
+	.catch((error) => {
+		registerError.textContent = 'An error occurred. Please try again.';
+	});
+});
+	</script>
 </body>
 </html>
